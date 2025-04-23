@@ -1,2 +1,5 @@
 *venv*
 .pytest_cache
+single_table_design_recipe.md
+__pycache__
+.vscode
