@@ -8,7 +8,7 @@ class Recipe:
 
     # String representation of recipe
     def __repr__(self):
-        return f"Recipe(id: {self.id}, name: {self.name}, cooking time: {self.cooking_time}, rating: {self.rating})"
+        return f"Recipe({self.id}, {self.name}, {self.cooking_time}, {self.rating})"
     
     def __eq__(self, other):
         return self.__dict__ == other.__dict__

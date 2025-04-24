@@ -18,7 +18,7 @@ A formatted string representing the attributes within the recipe is returned
 
 def test_recipe_is_formatted_nicely():
     recipe = Recipe(1, 'Ratatouille', '55 mins', 4)
-    assert str(recipe) == "Recipe(id: 1, name: Ratatouille, cooking time: 55 mins, rating: 4)"
+    assert str(recipe) == "Recipe(1, Ratatouille, 55 mins, 4)"
 
 '''
 When comparing two recipes, 
